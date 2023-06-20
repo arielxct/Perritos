@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+/*=============================================*/
+
+header{
+  display:grid;
+  background-color: black;
+  grid-template-columns: 20%  60% 20%;
+  column-gap: 5%;
+  
+  margin:0;
+  max-width: 1200px;
+
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.tituloLogin{
+  width: 96%;
+padding: 20px 0px 20px 0px;
+text-align: center;
+border: 1px solid white;
+border-radius: 10px;
+background: #d82d2d;
+margin: 20px;
+
+}
+

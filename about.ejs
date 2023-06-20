@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<main>
+<div class="row">
+    <div class="col-sm-8">
+        <div class="jumbotron">
+            <h1>Mis mascotas</h1>
+            <p>Este es el menu lateral de mi Proyecto</p>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="well">
+            <h3>Ahora veremos fotos!</h3>
+        </div>
+    </div>
+<!-- Agrego las fotos de las mascotas -->
+<section class="seccion2">
+    <article>
+      <img src="../image/Ivan en Tandil enhechado en el pasto.jpg" alt="mascotas" />
+      <h2>IVAN</h2>
+      <button>FORTALEZA</button>
+    </article>
+    <article>
+      <img src="./image/Mascota Mia.jpg" alt="mascotas" />
+      <h2>MIA</h2>
+      <button>SIEMPRE ATENTA</button>
+    </article>
+    <article>
+      <img src="/image/mascota Juan.jpg" alt="mascotas" />
+      <h2>JUAN</h2>
+      <button>EL JUGUETON</button>
+    </article>
+   
+  </section>
+<!-- LE DOY ESTILO A LAS FOTOS-->
+  <style>
+    .seccion2{
+    background-color: rgb(54, 84, 139);
+}
+.seccion1,
+.seccion2{
+    margin-bottom:3em;
+    padding: 2em 0;
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.seccion2 article img{
+  width: 12rem;
+  height: 10rem;
+}
+article{
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+
+}
+
+main{
+    background-color: rgb(244, 247, 247);
+}
+  </style>
+  <!-- FIN DE ESTILO DE LAS FOTOS-->
+<!-- Fin de fotos -->
+</div>
+</main>
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
